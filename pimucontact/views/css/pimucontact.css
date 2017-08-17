@@ -1,0 +1,79 @@
+.widget-pimucontact {
+  margin-top: 2em;
+  background: #f1f1f1;
+  padding: 20px;
+  display: block;
+  width: 100%;
+}
+
+.widget-pimucontact:before, .widget-pimucontact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.widget-pimucontact .pimucontact-message {
+  padding: 1em;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.widget-pimucontact .pimucontact-message.pimu-success {
+  background: #79BD8F;
+}
+
+.widget-pimucontact .pimucontact-message.pimu-fail {
+  background: #FF6138;
+}
+
+.widget-pimucontact .pimucontact-message .pimucontact-fail-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.widget-pimucontact .pimucontact-header {
+  margin-bottom: 1em;
+}
+
+.widget-pimucontact .pimucontact-header .pimucontact-header-title {
+  font-size: 24px;
+  color: black;
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+}
+
+.widget-pimucontact .pimucontact-header p {
+  margin-bottom: 0;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.widget-pimucontact .pimucontact-form input[type="email"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 16px;
+  border: none;
+  background: white;
+  padding: 0.5em 1em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.widget-pimucontact .pimucontact-form input[type="submit"] {
+  margin-top: 1em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  padding: 0.25em 1em;
+  
+}
+
+.widget-pimucontact .pimucontact-form textarea {
+  display: block;
+  margin-bottom: 1em;
+  background: white;
+  padding: 0.5em 1em;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100px;
+}

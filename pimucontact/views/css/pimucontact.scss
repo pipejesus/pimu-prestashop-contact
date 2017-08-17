@@ -1,0 +1,87 @@
+$widget-background: #f1f1f1;
+$widget-padding: 20px;
+$widget-margins: 2em;
+$widget-fail-bg: #FF6138;
+$widget-success-bg: #79BD8F;
+
+.widget-pimucontact {
+
+    margin-top: $widget-margins;
+    background: $widget-background;
+    padding: $widget-padding;    
+    display: block;
+    width: 100%;    
+
+    &:before, &:after {
+        content: "";
+        display: table;
+        clear: both;    
+    }
+
+    .pimucontact-message {
+        padding: 1em;
+        margin-bottom: 1em;
+        color: white;
+        &.pimu-success {
+            background: $widget-success-bg;
+        }
+        &.pimu-fail {
+            background: $widget-fail-bg;            
+        }
+        .pimucontact-fail-list {
+            list-style-type: disc;
+            list-style-position: inside;
+        }
+    }
+
+    .pimucontact-header {
+        margin-bottom: 1em;
+        .pimucontact-header-title {
+            font-size: 24px;
+            color: black;
+            font-family: "Source Sans Pro";
+            font-weight: 300;            
+        }
+        p {
+            margin-bottom:0;
+            font-family: "Source Sans Pro";
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .pimucontact-form {        
+        input[type="email"] {
+            display: block;
+            width: 100%;
+            margin-bottom: 1em;
+            font-size: 16px;
+            border: none;
+            background: white;
+            padding: 0.5em 1em;
+            font-family: "Source Sans Pro", sans-serif;
+        }
+        input[type="submit"] {
+            margin-top: 1em;
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 16px;
+            padding: 0.25em 1em;
+
+        }
+
+        textarea {
+            display: block;
+            margin-bottom: 1em;
+            background: white;
+            padding: 0.5em 1em;
+            font-size: 16px;
+            font-family: "Source Sans Pro", sans-serif;
+            height: 100px;
+        }
+
+    }
+
+    .pimucontact-message {
+        
+    }
+}

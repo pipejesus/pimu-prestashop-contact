@@ -1,0 +1,14 @@
+
+[{shop_url}] 
+
+Dostałeś zapytanie o produkt
+
+Produkt: {productname}
+Produkt: {productname}
+Link do produktu: {productlink}
+E-mail nadawcy: {senderemail}
+Wiadomość od nadawcy: {sendermessage}
+
+{shop_name} [{shop_url}] powered
+by PrestaShop(tm) [http://www.prestashop.com/] 
+
